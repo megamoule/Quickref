@@ -96,7 +96,7 @@ data_action = [
     {
         title: "Help",
         icon: "telepathy",
-        subtitle: "Grant an ally advantage",
+        subtitle: "Ally gains advantage on next attack or ability check",
         description: "Grant an ally advantage on an ability check or attack",
         reference: "PHB, pg. 192.",
         bullets: [
@@ -117,7 +117,7 @@ data_action = [
         ]
     },
     {
-        title: "Use shield",
+        title: "Equip/Unequip shield",
         icon: "round-shield",
         subtitle: "Equip or unequip a shield",
         description: "Equip or unequip a shield",
@@ -162,16 +162,6 @@ data_action = [
             "Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it.",
             "When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.",
             "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration"
-        ]
-    },
-    {
-        title: "Use class feature",
-        icon: "embrassed-energy",
-        subtitle: "Some features use actions",
-        description: "Use a racial or class feature that uses an action",
-        reference: "See class page for more information.",
-        bullets: [
-
         ]
     },
     {
