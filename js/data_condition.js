@@ -2,7 +2,7 @@ data_condition = [
     {
         title: "Blinded",
         icon: "one-eyed",
-        subtitle: "You can't see",
+        subtitle: "Disadvantage on attacks, attacks against you have advantage",
         description: "You can't see",
         reference: "PHB, pg. 290.",
         bullets: [
@@ -14,7 +14,7 @@ data_condition = [
     {
         title: "Charmed",
         icon: "smitten",
-        subtitle: "You are charmed",
+        subtitle: "Can't attack charmer",
         description: "You are charmed by another creature",
         reference: "PHB, pg. 290.",
         bullets: [
@@ -25,7 +25,7 @@ data_condition = [
     {
         title: "Deafened",
         icon: "elf-ear",
-        subtitle: "You can't hear",
+        subtitle: "Can't hear",
         description: "You can't hear",
         reference: "PHB, pg. 290.",
         bullets: [
@@ -47,7 +47,7 @@ data_condition = [
     {
         title: "Frightened",
         icon: "sharp-smile",
-        subtitle: "You are frightened",
+        subtitle: "Disadvantage on attack and ability checks, can't move toward source",
         description: "You are frightened",
         reference: "PHB, pg. 290.",
         bullets: [
@@ -58,7 +58,7 @@ data_condition = [
     {
         title: "Grappled",
         icon: "grab",
-        subtitle: "You are grappled",
+        subtitle: "Speed becomes 0",
         description: "You are grappled",
         reference: "PHB, pg. 290.",
         bullets: [
@@ -70,7 +70,7 @@ data_condition = [
     {
         title: "Incapacitated",
         icon: "internal-injury",
-        subtitle: "You can't take actions or reactions",
+        subtitle: "Can't take actions or reactions",
         description: "You can't take actions or reactions",
         reference: "PHB, pg. 290.",
         bullets: [
@@ -79,7 +79,7 @@ data_condition = [
     {
         title: "Invisible",
         icon: "invisible",
-        subtitle: "You can't be seen",
+        subtitle: "Advantage on attacks, attacks against you have disadvantage",
         description: "You can't be seen without the aid of magic or a special sense",
         reference: "PHB, pg. 291.",
         bullets: [
@@ -92,7 +92,7 @@ data_condition = [
     {
         title: "Paralyzed",
         icon: "internal-injury",
-        subtitle: "You are paralyzed",
+        subtitle: "Incapacitated, attacks against you auto-crit (5ft) and have advantage, auto-fail Str and Dex saves",
         description: "You can't do anything",
         bullets: [
             "You are incapacitated and can't move or speak.",
@@ -119,7 +119,7 @@ data_condition = [
     {
         title: "Poisoned",
         icon: "deathcab",
-        subtitle: "You are poisoned",
+        subtitle: "Disadvantage on attacks and ability checks",
         description: "You are poisoned",
         reference: "PHB, pg. 292.",
         bullets: [
@@ -129,7 +129,7 @@ data_condition = [
     {
         title: "Prone",
         icon: "crawl",
-        subtitle: "You are prone",
+        subtitle: "Can only crawl, disadvantage on attacks, attacks against you have advantage (5ft) or disadvantage (>5ft)",
         description: "You are prone",
         reference: "PHB, pg. 292.",
         bullets: [
@@ -141,7 +141,7 @@ data_condition = [
     {
         title: "Restrained",
         icon: "imprisoned",
-        subtitle: "You are restrained",
+        subtitle: "Speed becomes 0, disadvantage on attacks and Dex saves, attacks against you have advantage",
         description: "You are restrained",
         reference: "PHB, pg. 292.",
         bullets: [
@@ -154,7 +154,7 @@ data_condition = [
     {
         title: "Stunned",
         icon: "internal-injury",
-        subtitle: "You are stunned",
+        subtitle: "Incapacitated, can't move, attack against you have advantage, auto-fail Str and Dex saves",
         description: "You are stunned",
         reference: "PHB, pg. 292.",
         bullets: [
@@ -166,7 +166,7 @@ data_condition = [
     {
         title: "Unconscious",
         icon: "coma",
-        subtitle: "You are unconscious",
+        subtitle: "Incapacitated, prone, attacks against you auto-crit (5ft) and have advantage, auto-fail Str and Dex saves",
         description: "You are unconscious",
         reference: "PHB, pg. 292.",
         bullets: [
